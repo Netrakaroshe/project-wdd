@@ -6,6 +6,8 @@ import Subtraction from "./subtraction";
 
 
 let Calc = () => {
+    let x=10,y=8;
+
   return (
     <div>
          <div className="flex justify-center">
@@ -18,10 +20,10 @@ let Calc = () => {
                 </div>
             </div>
       <p>Calculator App</p>
-      <Addition />
-      <Subtraction />
-      <Multiplication />
-      <Division />
+      <Addition x={x} y={y}/>
+      <Subtraction x={x} y={y}/>
+      <Multiplication  x={x} y={y}/>
+      <Division x={x} y={y}/>
     </div>
   );
 };
