@@ -1,6 +1,6 @@
 import React from 'react'
 
-const calculatorApp = () => {
+let Calc = () => {
   return (
     <div>
       <p>Calculator App</p>
@@ -8,4 +8,4 @@ const calculatorApp = () => {
   )
 }
 
-export default calculatorApp;
+export default Calc;
