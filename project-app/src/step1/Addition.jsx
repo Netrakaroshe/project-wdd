@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Addition = () => {
+  let add_click =() => {
+    alert("add = " + (x+y));
+  }
   return (
     
     <div>
