@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Addition = () => {
+import Button from './Button';
+const Addition = ({x,y}) => {
   let add_click =() => {
     alert("add = " + (x+y));
   }

@@ -1,5 +1,7 @@
+import Button from './Button';
 
-let Multiplication = () => {
+
+let Multiplication = ({x,y}) => {
      let mult_click =() => {
     alert("mult = " + (x*y));
   }

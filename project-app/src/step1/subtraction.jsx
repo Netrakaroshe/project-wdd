@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button';
 
 let Subtraction = ({x,y}) => {
   let sub_click =() => {

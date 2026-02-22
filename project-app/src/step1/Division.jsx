@@ -1,6 +1,7 @@
 import React from 'react'
+import Button from './Button';
 
-const Division = () => {
+const Division = ({x,y}) => {
      let div_click =() => {
     alert("div = " + (x/y));
   }
