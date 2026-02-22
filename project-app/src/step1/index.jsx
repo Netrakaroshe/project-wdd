@@ -1,6 +1,7 @@
 import React from "react";
 import Addition from "./Addition";
 import Multiplication from "./Multiplication";
+import Division from "./Division";
 
 let Calc = () => {
   return (
@@ -8,6 +9,7 @@ let Calc = () => {
       <p>Calculator App</p>
       <Addition />
       <Multiplication />
+      <Division />
     </div>
   );
 };
